@@ -1,0 +1,9 @@
+.MenuItem {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0; /* Exemplo de estilo específico */
+  border: 1px solid #ccc; /* Exemplo de estilo específico */
+  margin-bottom: 10px; /* Exemplo de estilo específico */
+}
