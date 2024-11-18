@@ -1,9 +1,51 @@
-.MenuItem {
-  padding: 10px 20px;
-  cursor: pointer;
+.menu-item {
+  padding: 5px 10px; /* Reduza o espaçamento interno */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  width: 284px;
+  height: 1358px;
+  border: 1px solid transparent; /* Borda transparente para manter o layout */
   display: flex;
   align-items: center;
-  background-color: #f0f0f0; /* Exemplo de estilo específico */
-  border: 1px solid #ccc; /* Exemplo de estilo específico */
-  margin-bottom: 10px; /* Exemplo de estilo específico */
+  opacity: 1; /* Define a opacidade como visível */
+}
+.menu-item:hover {
+  background-color: #0d5b8c;
+}
+.menu-item.highlighted {
+  background-color: #2980b9;
+}
+.icon {
+  margin-right: 5px; /* Reduza o espaço entre o ícone e o texto */
+}
+.menu-item .label {
+  color: #000000;
+  font-size: 14px; /* Reduza o tamanho da fonte */
+  font-weight: bold; /* Define o peso da fonte */
+  flex: 1; /* Permite que o texto ocupe o espaço restante */
+  text-align: left;
+  width: 61px;
+  height: 18px;
+  top: 16px;
+  left: 59px;
+}
+.logo-container {
+  background-color: #eceaea;
+  width: 1594px;
+  height: 100px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: left; /* Centraliza o logo horizontalmente */
+  align-items: center; /* Centraliza o logo verticalmente */
+  border-bottom: 0.5px solid #000000;
+}
+.logo {
+  width: 254.14px;
+  height: 70px;
+  top: 19px;
+  left: 8px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
 }
