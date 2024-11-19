@@ -1,13 +1,12 @@
 .menu-item {
-  padding: 5px 10px; /* Reduza o espaçamento interno */
+  padding: 5px 10px; /* Reduz o espaçamento interno */
   cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
   transition: background-color 0.3s; /* Transição suave para a cor de fundo */
   width: 284px;
-  height: 1358px;
+  height: 50px;
   border: 1px solid transparent; /* Borda transparente para manter o layout */
   display: flex;
   align-items: center;
-  opacity: 1; /* Define a opacidade como visível */
 }
 .menu-item:hover {
   background-color: #0d5b8c;
@@ -15,37 +14,30 @@
 .menu-item.highlighted {
   background-color: #2980b9;
 }
-.icon {
-  margin-right: 5px; /* Reduza o espaço entre o ícone e o texto */
-}
 .menu-item .label {
   color: #000000;
-  font-size: 14px; /* Reduza o tamanho da fonte */
   font-weight: bold; /* Define o peso da fonte */
   flex: 1; /* Permite que o texto ocupe o espaço restante */
   text-align: left;
-  width: 61px;
-  height: 18px;
-  top: 16px;
-  left: 59px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.29px; /* Mantém a linha consistente */
 }
 .logo-container {
   background-color: #eceaea;
   width: 1594px;
   height: 100px;
-  gap: 0px;
-  opacity: 0px;
   display: flex;
-  justify-content: left; /* Centraliza o logo horizontalmente */
-  align-items: center; /* Centraliza o logo verticalmente */
-  border-bottom: 0.5px solid #000000;
+  justify-content: left;
+  align-items: center;
 }
 .logo {
   width: 254.14px;
-  height: 70px;
-  top: 19px;
-  left: 8px;
-  gap: 0px;
-  border: 0px 0px 1px 0px;
-  opacity: 0px;
+  height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+}
+.logo-container .icon {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }

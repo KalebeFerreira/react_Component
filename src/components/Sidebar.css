@@ -1,6 +1,6 @@
 .sidebar {
-  width: 284px; /* Ajuste a largura para caber na tela */
-  height: 1358px;
+  width: 283px; /* Ajuste a largura para caber na tela */
+  height: 801px;
   background-color: #eceaea;
   color: #000000;
   display: flex;
@@ -10,10 +10,12 @@
   position: fixed;
   left: 50px;
   top: 99px;
-
-  border-left: 1px solid #000000; /* Adiciona uma borda preta à esquerda */
-  border-bottom: 1px solid #000000; /* Adiciona uma borda preta na parte inferior */
+  border-left: 1px solid #000000; /* Borda preta à esquerda */
+  border-bottom: 1px solid #000000; /* Borda preta na parte inferior */
+  border-top: 1px solid #000000;
+  overflow-y: auto; /* Rolagem vertical se o conteúdo exceder a altura */
 }
 .icon {
   color: #0d5b8c;
+  margin-right: 5px; /* Espaço entre o ícone e o texto */
 }
